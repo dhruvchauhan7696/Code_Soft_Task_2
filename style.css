@@ -1,0 +1,257 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(10, 0, 50);
+    color: rgb(2, 1, 1);
+    padding: 0px 200px 0px 100px;
+    
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    background-color: rgb(0, 0, 30);
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+
+
+    #img {
+        height: 450px;
+        width: 35%;
+        transition: transform 0.3s;
+    }
+    
+    #img:hover {
+        transform: scale(1.1);
+    }
+    
+
+
+#heading1
+{
+    color: rgb(206, 208, 229);
+    font-size: 220%;
+    overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 2s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+#heading2
+{
+    color: rgb(206, 208, 229);
+    font-size: 220%;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 1.5s steps(30, end) forwards, blinking 1s infinite;
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blinking {
+    0% {border-right-color: transparent}
+    50% {border-right-color: rgb(206, 208, 229);}
+    100% {border-right-color: transparent}
+  }
+  
+
+
+
+
+
+
+
+
+
+
+#heading
+{
+    color: rgb(142, 148, 202);
+    font-size: 250%;
+}
+
+#name12
+{
+    color:  rgb(206, 208, 229);
+    font-size: 270%;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    
+    font-size: 120%;
+}
+#contactme
+{
+    color: rgb(5, 5, 5);
+}
+.Header_Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: x-large;
+}
+
+.main_contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form {
+    border: solid  rgb(11, 11, 11);;
+    border-radius: 5%;
+    border-style: dashed;
+    padding: 5% 5% 5% 5%;
+   
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#button_Submit {
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: rgb(59, 23, 134);
+    font-size: 20px;
+    border-radius: 10%;
+    
+}
+
+
+
+#name
+{
+   
+    border-color:  rgb(12, 12, 12);
+    font-size: x-large;
+}
+
+#email
+{
+    
+   border-color: rgb(6, 6, 6);
+   font-size: x-large;
+}
+
+#message
+{
+   
+    border-color: rgb(5, 5, 5);
+    font-size: x-large;
+}
+.About_content{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.main_contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row
+{
+    background-color: black;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color:rgb(254, 254, 255);
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: rgb(142, 148, 202);
+}
+
+#contactimage11{
+    position: absolute;
+    top: 50%;
+    left: 69.9%;
+    width: 30%;
+    height: 50%;
+    transition: transform 0.3s;
+    
+}
+#contactimage11:hover {
+    transform: scale(1.1);
+}
+
+#contactimage12{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 30%;
+    height: 50%;
+    transition: transform 0.3s;
+  
+}
+#contactimage12:hover {
+    transform: scale(1.1);
+}
+#phoneemail1{
+    transition: transform 0.3s;
+  
+}
+#phoneemail1:hover{
+    transform: scale(1.1);
+}
